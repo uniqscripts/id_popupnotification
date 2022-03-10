@@ -1,0 +1,62 @@
+﻿*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    margin: 0;
+    padding: 0;
+}
+
+body,html { 
+    width: 100%; 
+    height: 100%;
+}
+
+body { 
+    font-family: 'Montserrat', sans-serif;
+}
+
+#infinitydevelopment { 
+    position: relative; 
+    width: 100%; 
+    height: 100%; 
+    overflow: hidden;
+}
+
+.start { 
+    position: absolute;
+}
+
+.start.popup { 
+    background: rgba(39, 115, 165, 0.671);
+    bottom: 75px; 
+    right: 25px; 
+    width: 400px; 
+    color: #FFF; 
+    opacity: 0; 
+    display: none;
+}
+
+.start.popup div.background { 
+    width: 100%; 
+    height: 100%; 
+    padding: 25px; 
+    border-radius: 5px; 
+}
+
+.start.popup div.background div.title { 
+    font-weight: 700; 
+    text-transform: uppercase; 
+    font-size: 14px; 
+    margin: 0 0 5px 0; 
+    text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.50);
+}
+
+.start.popup div.background div.message { 
+    font-size: 12px; 
+    text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.75);
+}
